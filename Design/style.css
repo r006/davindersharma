@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*{
+     font-family:'Josefin Sans', sans-serif;
+     font-size: 18px;
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     line-height: 1.6em;
+
+
+
+}
+#mobile-tabs{
+     display: none;
+     
+}
+
+body,html{
+overflow-x: hidden;
+}
+
+body{
+background-color: #f4f4f4;
+     color: #000000;
+
+}
+header {
+     background-color: #035D68;
+     width: 100%;
+     height: 35px;
+     display: flex;
+     flex-direction: row;
+     justify-content:center;
+
+     align-items:center;
+
+}
+ #mobile-message{
+     display: none;
+
+     align-items:center;
+}
+
+
+header a, header p {
+
+     font-size:14px;
+     color: #f4f4f4;
+
+}
+
+header img{
+     float: right;
+     height: 17px;
+     padding-bottom: 2px;
+     padding-right: 5px;
+}
+header p{
+     padding-right:20px;
+}
+
+#text-call{
+text-decoration: none !important;
+}
+
+
+nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     min-height: 10vh;
+     font-size: 1.125em;
+     font-weight: bold;
+
+}
+
+
+.logo {
+     font-size:30px;
+     letter-spacing: 1px;
+     text-transform:none;
+     padding: 5px;
+
+}
+.logo-hidden{
+     display: none;
+     font-size: 30px;
+     text-align: center;
+     padding: 0px;
+     
+}
+
+.tabs {
+     display: flex;
+     justify-content: space-between;
+     width: 30%;
+}
+
+nav li {
+     list-style: none;
+}
+nav a{
+     color: #000000;
+
+}
+
+.tabs a:hover {
+     color: #035D68;
+     
+     
+}
+
+
+
+#text-email{
+      font-weight:400;
+     text-decoration: none !important;
+}
+
+#text-email:hover{
+     text-decoration: underline !important;
+     color: #f4f4f4 !important;
+
+}
+
+
+
+
+.curentTab {
+     border-bottom: solid;
+     border-color: #035D68;
+}
+
+#Contact {
+     border-style: solid;
+     width: 60px;
+     height: 180px;
+     padding: 7px 8px 5px 8px;
+     border-radius: 6px;
+     border-color: #518895;
+     border-width: 2.5px;
+}
+
+
+
+.tabs a {
+     text-decoration: none;
+     list-style-type: none;
+}
+
+
+/*Dropdown*/
+.dropdown{
+     box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px;
+     margin-top: 0px;
+     padding: 30px;
+
+
+     position: absolute;
+     border-radius: 3px;
+     background-color: #f4f4f4;
+     display: none;
+     z-index: 100
+}
+
+nav ul li:hover > ul{
+     display: block;
+
+
+}
+nav ul li:hover .curentTab{
+     border: none;
+
+}
+
+.dropdown li a {
+
+
+     display: block;
+
+
+     background-color: #f4f4f4;
+     color: #000000;
+     padding: 4px;
+     line-height: 1.5em;
+     font-size: 14px;
+     font-weight: 550;
+     border-bottom: solid;
+     border-width: 0.005em;
+     border-bottom-color: rgba(230, 230, 230, 0.85);
+     border-bottom-style: solid;
+     
+     
+     
+     
+
+
+
+
+}
+.dropdown li a:hover {
+
+     background-color: #E6F6F5;
+     color: #000000;
+     border-radius: 2px;
+
+
+
+
+
+}
+#small-trinagle{
+     height:5px;
+     padding-bottom: 1px;
+
+
+     padding-left: 4px;
+
+
+}
+
+/*Dropdown*/
+
+.dropdown2{
+box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px;
+margin-top: 0px;
+padding: 15px;
+width:95%;
+
+
+position: absolute;
+border-radius: 3px;
+background-color: #f4f4f4;
+display: none;
+z-index: 100;
+margin-left: 70%;
+margin-top: -15%;
+
+}
+
+
+.dropdown2-form{
+position: relative;
+display: block;
+
+margin-left: 10%;
+font-size: 12px;
+}
+
+
+@media (max-width:425px) {
+.dropdown2{
+box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px;
+margin-top: 0px;
+padding: 15px;
+width:125%;
+
+
+position: absolute;
+border-radius: 3px;
+background-color: #f4f4f4;
+display: none;
+z-index: 100;
+margin-left: 70%;
+margin-top: -15%;
+
+}
+}
+
+
+#pastel-green {
+     padding: 20vh;
+     background: #E6F6F5;
+}
+
+#pictureOfDavinder {
+     height: 610px;
+     width: 410px;
+     margin-bottom: 7%;
+     
+
+}
+#pictureOfDavinder-mobile{
+     display: none;
+}
+
+.container{
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: -18%;
+     margin-left: 7%;
+
+}
+
+
+footer{
+     font-size: 14px;
+     align-self:   flex-end;
+     display: flex;
+     flex-direction: column;
+     margin:  18px 0px;
+     /* position: absolute; */
+     text-align: center;
+     
+}
+
+
+
+
+/*Subcript*/
+
+sub {
+  font-size: 10px;
+}
+
+/*--------------Animation -----------------*/
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    
+    
+}
+
+.layer{
+    background-color: #1A6D76;
+}
+
+.layer-1{
+    flex: 1;
+}
+
+.layer-2{
+    flex: 1;
+}
+
+.layer-3{
+    flex: 1;
+}
+
+
+#pictureOfDavinder{
+     animation-duration: 10s;
+}
+
+.animationtext{
+     position:absolute;
+     top: 24%;
+     left:28%;
+     display: flex;
+     align-self:center;
+     justify-content: center;
+     
+     font-size: 100px;
+     color: #f4f4f4;
+     font-weight: bolder;
+}
+
+.animationtext2{
+     position:absolute;
+     left:28%;
+     display: flex;
+     align-self:center;
+     justify-content: center;
+     
+     font-size: 100px;
+     color: #f4f4f4;
+     font-weight: bolder;
+}
+
+
+
+
+
+
+/*TExt box*/
+.text-box{
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     width:72%;
+     margin:auto;
+     margin-top: 2%;
+     padding-bottom: 12%;
+
+     /*background-color: #a2a2a2*/
+     
+}
+
+
+.text-box h1{
+     text-align:center;
+     font-size: 30px;
+     padding-bottom: 15px;
+}
+.text-box h2{
+     text-align:left;
+     font-size: 24px;
+     padding: 12px 0px;
+}
+.text-box p{
+font-weight: 500;    
+font-size: 16px;
+}
+
+
+
+.text-box li{
+padding:6px;
+font-size: 16px;
+font-weight: 500;
+
+}
+
+
+.text-box ul li{
+padding:6px;
+font-size: 16px;
+font-weight: 500;
+margin-left:3%;
+margin-top: 5px;
+}
+
+.text-box .bold{
+font-weight: bolder;
+}
+
+
+#sub-element{
+padding: 2px;
+margin-top: 0px;
+}
+
+
+.text-box ol{
+     list-style:decimal;
+     margin-left: 16px;
+}
+
+.text-box ol li{
+     padding: 15px 0px; 
+}
+
+.text-box ol h5{
+margin-left:  -25px;
+}
+.text-box ol h2{
+margin-left:  -25px;
+}
+
+.davinder-bold{
+     font-weight: bolder;
+     display: inline;
+     font-size: 16px;
+}
+.text-box b{
+     font-weight: bolder;
+     display: inline;
+     font-size: 16px;
+}
+
+.text-box a, {
+     font-size: 16px;
+     text-decoration: underline;
+     font-weight: normal;
+}
+
+#centre-content{
+text-align: center;
+}
+
+#year-h5{
+     padding-bottom: 8px;
+     
+}
+
+.justify-text{
+     text-align: justify;
+}
+
+/*grid for images*/
+.images{
+display: flex;
+align-content: center;
+justify-content: space-between;
+width: 100%;
+
+
+overflow: auto;
+
+
+}
+#lab1{
+position: relative;
+height: 235px;
+width: 496px;
+padding:20px 2px 20px 20px;
+border-radius: 25px;
+
+}
+
+#lab2{
+width: 576px;
+position: relative;
+height: 235px;
+padding:20px;
+border-radius: 25px;
+}
+#lab3{
+width: 380px;
+height: 235px;
+position: relative;
+padding:20px;
+border-radius: 25px;
+}
+
+
+
+
+#conferences li{
+     text-align: justify;
+}
+
+
+/*contact*/
+.contact-logo{
+     height: 40px;
+     margin-top: 6%;
+     padding: 0px 10px;
+     
+     
+}
+.logo-uwi{
+height: 42.5px;
+margin-top: 5%;
+
+margin-left: 8px;
+border-radius: 6px;
+border: solid #858585 1px;
+}
+
+
+.professionalinks{
+     display: flex;
+     margin-top: 10px;
+     
+     width: 100%;
+     
+     justify-content: flex-start;
+     align-content: center;
+}
+
+
+
+.text-box2{
+     display: flex;
+     flex-direction: row;
+     width:75%;
+     
+     justify-content:  space-around;
+     margin:0% auto;
+     
+
+     
+     
+}
+
+#contact-info{
+     margin-top: 4%;
+     text-align: left;
+}
+
+.text-box2 p{
+font-weight: 500;  
+padding-top: 3px; 
+font-size: 16px;
+}
+
+.text-box2 a{
+     
+     color: #000000;
+     font-size: 16px;
+     font-weight: 475;
+     
+     
+}
+
+
+.text-box2 a:hover{
+     color: #035D68;
+}
+
+
+
+
+input, textarea{
+     
+     border-radius: 3px;
+     color: #1a1a1a;
+     border-style: solid;
+     border-width: thin;
+     padding: 10px;
+     text-align: left;
+     width:100%;
+     margin:5px 0px;
+
+}
+
+
+textarea{
+     resize: none;
+}
+form{
+     width:45%;
+     padding-left: 50px;
+     
+}
+.signup-form button{
+     padding:10px 30px;
+     border-style: none;
+     border-radius: 3px;
+     margin-top: 10px;
+     color: #f4f4f4;
+     font-weight: 600;
+     background-color:#035D68;
+
+}
+.signup-form button:hover{
+     transform: scale(1.08);
+     background-color:#035D68;
+     color: #f4f4f4;
+
+}
+
+
+.logo-uwi:hover{
+     transform: scale(1.08);
+     
+
+}
+.contact-logo:hover{
+     transform: scale(1.08);
+     
+
+}
+
+
+/*contacts*/
+@media (max-width:1350px) {
+.text-box2 p, .text-box2 a{
+
+font-size: 14px;
+}
+
+form{
+     width:50%;
+     
+     
+}
+
+textarea {
+    height: 6.5em;
+    
+}
+.text-box2{
+width:95%;
+}
+#contact-info{
+margin-top: 0%;
+}
+
+
+}
+
+@media (max-width:900px) {
+.text-box2 p, .text-box2 a{
+
+font-size: 15px;
+}
+.professionalinks{
+margin-top: 5%;
+width:100%;
+justify-content: center;
+}
+form{
+     width:100%;
+     margin-top: 8%;
+     margin-left: 0%;
+     
+}
+
+
+input, textarea{
+     
+     border-radius: 3px;
+     color: #1a1a1a;
+     border-style: solid;
+     border-width: thin;
+     padding: 10px;
+     text-align: left;
+     width:100%;
+     margin:0px 0px;
+     
+
+}
+
+
+
+button{
+margin-left:40%;
+}
+.text-box2{
+width:100%;
+margin: auto;
+flex-direction: column;
+}
+#contact-info{
+margin-top: 4%;
+text-align: center;
+}
+
+
+}
+@media (max-width:700px) {
+button{
+margin-left:34%;
+}
+}
+
+@media (max-width:425px) {
+     .text-box2 p, .text-box2 a{
+
+     font-size: 15px;
+     }
+     .professionalinks{
+     margin-top: 5%;
+     width:100%;
+     justify-content: center;
+     }
+     form{
+          width:100%;
+          margin-top: 8%;
+          margin-left: 0%;
+          
+     }
+
+     ::placeholder{
+          font-size: 14px;
+     }
+
+     input, textarea{
+          
+          border-radius: 3px;
+          color: #1a1a1a;
+          border-style: solid;
+          border-width: thin;
+          padding: 5px;
+          text-align: left;
+          width:100%;
+          margin-left:-10%;
+          
+          
+
+     }
+
+
+
+     button{
+     margin-left:15%;
+     }
+     .text-box2{
+     width:100%;
+     margin: auto;
+     flex-direction: column;
+     }
+     #contact-info{
+     margin-top: 4%;
+     text-align: center;
+     }
+
+
+}
+
+#thank-message{
+     text-align: center;
+     padding-top: 15%;
+     padding-bottom: 3%;
+
+}
+
+#return-btn{
+     padding: 7px 15px;
+     background-color: #035D68;
+     text-align: center;
+     color: #f4f4f4;
+     font-weight: 550;
+     text-decoration: none;
+     font-size: 18px;
+     border-radius: 4px;
+     margin: 0 auto ;
+     
+}
+
+#return-btn:hover{
+transform: scale(1.04);
+}
+
+
+

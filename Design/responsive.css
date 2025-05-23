@@ -1,0 +1,1174 @@
+@media (min-width:1925px){
+
+    .container{
+        width:75%;
+        margin:-340px auto 0 auto;
+    }
+    .nav{
+        width:75%;
+        margin:0 auto;
+    }
+}
+
+@media (max-width:1800px) {
+     .container2 {
+          width: 54%;
+          height: 30%;
+          padding: 30px 40px 30px 30px;
+          background: #f4f4f4;
+          border: solid;
+          border-radius: 4px;
+          border-width: thin;
+          border-color: black;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          opacity: 90%;
+          font-family: 'Josefin Sans', sans-serif;
+          font-weight: 540;
+          color: #000000;
+     }
+}
+
+@media (max-width:1700px) {
+     .container2 {
+          width: 56%;
+          height: 30%;
+          padding: 30px 40px 30px 30px;
+          background: #f4f4f4;
+          border: solid;
+          border-radius: 4px;
+          border-width: thin;
+          border-color: black;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          opacity: 90%;
+          font-family: 'Josefin Sans', sans-serif;
+          font-weight: 540;
+          color: #000000;
+     }
+
+}
+
+@media (max-width:1600px) {
+     .container2 {
+          width: 55%;
+          height: 25%;
+          padding: 30px 40px 30px 30px;
+          background: #f4f4f4;
+          border: solid;
+          border-radius: 4px;
+          border-width: thin;
+          border-color: black;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          opacity: 90%;
+          font-family: 'Josefin Sans', sans-serif;
+          font-weight: 500;
+          color: #000000;
+     }
+
+     .topic {
+          font-size: 22px;
+          font-weight: bolder;
+          color: #000000;
+          margin-bottom: 10px;
+     }
+
+     #pictureOfDavinder {
+          height: 470px;
+          width: 313px;
+          margin-bottom: 4%;
+          margin-right: 3%;
+     }
+
+     .content .list label {
+          height: 60px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 60px;
+          cursor: pointer;
+          padding-left: 0px;
+          transition: all 0.5s ease;
+          color: #333;
+          z-index: 12;
+          text-align: center;
+     }
+
+     #home:checked~.list .slider {
+          top: 0;
+     }
+
+     #blog:checked~.list .slider {
+          top: 60px;
+     }
+
+     #help:checked~.list .slider {
+          top: 120px;
+     }
+
+     #code:checked~.list .slider {
+          top: 180px;
+     }
+
+     #about:checked~.list .slider {
+          top: 240px;
+     }
+
+     .content .text-content {
+          width: 80%;
+          height: 100%;
+     }
+
+     .content .list {
+          display: flex;
+          flex-direction: column;
+          width: 25%;
+          margin-right: 50px;
+          margin-bottom: 20px;
+          position: relative;
+     }
+     .content .slider{
+       position: absolute;
+       left: 0;
+       top: 0;
+       height: 55px;
+       width: 100%;
+       border-radius: 5px;
+       background: #035D68;
+       transition: all 0.4s ease;
+     }
+
+     footer {
+          font-size: 14px;
+          text-align: center;
+          margin-top: 90px;
+     }
+}
+
+@media (max-width:1366px) {
+     
+     .content .text p {
+          text-align: justify;
+          font-size: 14px;
+     }
+
+     .topic {
+          font-size: 22px;
+     }
+     
+     .content .slider{
+       position: absolute;
+       left: 0;
+       top: 0;
+       height: 50px;
+       width: 100%;
+       border-radius: 5px;
+       background: #035D68;
+       transition: all 0.4s ease;
+     }
+     span .title{
+          font-size: 2px;
+     }
+     nav a{
+          font-size: 0.9em;
+     
+     }
+     .logo {
+          font-size:25px;
+          letter-spacing: 1px;
+          text-transform:none;
+          padding: 5px;
+     
+     }
+     .tabs {
+          
+          width: 38%;
+     }
+     footer{
+          font-size: 14px;
+          text-align: center;
+          margin-bottom:  30px;
+          margin-top: 80px;
+     }
+
+     
+}
+ 
+ 
+ @media (max-width: 1250px) {
+     
+      .container2 {
+          width: 60%;
+          height: 40%;
+          padding: 30px 40px 30px 30px;
+          background: #f4f4f4;
+          border: solid;
+          border-radius: 4px;
+          border-width: thin;
+          border-color: black;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          opacity: 90%;
+          font-family: 'Josefin Sans', sans-serif;
+          font-weight: 500;
+          color: #000000;
+     }
+     
+     #pictureOfDavinder {
+          height: 456px;
+          width: 304px;
+          margin-bottom: 4%;
+          margin-right: 3%;
+     }
+     .content .text p {
+     text-align: justify;
+     font-size: 13px;
+}
+     .topic {
+          font-size: 18px;
+     }
+     
+     .content .slider{
+       position: absolute;
+       left: 0;
+       top: 0;
+       height: 40px;
+       width: 100%;
+       border-radius: 5px;
+       background: #035D68;
+       transition: all 0.4s ease;
+     }
+     .content .list label {
+          height: 45px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 50px;
+     }
+     #home:checked ~ .list .slider{
+       top: 0;
+     }
+     #blog:checked ~ .list .slider{
+       top: 45px;
+     }
+     #help:checked ~ .list .slider{
+       top: 90px;
+     }
+     #code:checked ~ .list .slider{
+       top: 135px;
+     }
+     #about:checked ~ .list .slider{
+       top: 180px;
+     }
+     .content .text-content{
+       width: 80%;
+       height: 100%;
+     }
+     .container{
+          
+          margin-top: -24%;
+     
+     }
+     #pastel-green {
+          /* padding: 20vh; */
+          background: #E6F6F5;
+     }
+     
+ }
+ 
+ @media (max-width:1120px) {
+           .container{
+                width: 85%;
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                justify-content: space-around;
+               margin-top: 0;
+               
+               
+           
+           }
+           
+           
+           #pastel-green{
+                padding: 5vh ;
+                display: flex;
+                justify-content: center;
+           }
+           #pictureOfDavinder{
+           display: none;
+           }
+           #pictureOfDavinder-mobile{
+                
+           height: 610px;
+           width: 410px;
+                display: block;
+           }
+
+             header a, header p {
+                  font-size:12px;
+                 
+             }
+             header img{
+                  float: right;
+                  height: 14px;
+                  padding-bottom: 2px;
+                  padding-right: 5px;
+               }
+      
+      
+      
+      .container2 {
+           width: 95%;
+           height: 50%;
+           padding: 30px 40px 30px 30px;
+           background: #f4f4f4;
+           border: solid;
+           border-radius: 4px;
+           border-width: thin;
+           border-color: black;
+           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+           opacity: 90%;
+           font-family: 'Josefin Sans', sans-serif;
+           font-weight: 500;
+           color: #000000;
+           margin-top: 10%;
+          
+
+          }
+     .topic{
+           font-size: 22px;
+           font-weight: bolder;
+           color: #000000;
+           margin-bottom: 10px;
+     }
+
+
+     #pictureOfDavinder {
+           height: 470px;
+           width: 313px;
+           margin-bottom: 4%;
+           margin-right: 3%;
+     }
+
+     .content .list label {
+           height: 60px;
+           font-size: 14px;
+           font-weight: 500;
+           line-height: 60px;
+           cursor: pointer;
+           padding-left: 0px;
+           transition: all 0.5s ease;
+           color: #333;
+           z-index: 12;
+           text-align: center;
+     }
+
+     #home:checked~.list .slider {
+           top: 0;
+     }
+
+     #blog:checked~.list .slider {
+           top: 60px;
+     }
+
+     #help:checked~.list .slider {
+           top: 120px;
+     }
+
+     #code:checked~.list .slider {
+           top: 180px;
+     }
+
+     #about:checked~.list .slider {
+           top: 240px;
+     }
+
+     .content .text-content {
+           width: 80%;
+           height: 100%;
+     }
+
+     .content .list {
+           display: flex;
+           flex-direction: column;
+           width: 25%;
+           margin-right: 50px;
+           margin-bottom: 20px;
+           position: relative;
+     }
+     .content .slider{
+       position: absolute;
+       left: 0;
+       top: 0;
+       height: 55px;
+       width: 100%;
+       border-radius: 5px;
+       background: #035D68;
+       transition: all 0.4s ease;
+     }
+
+     .content .text p {
+               text-align: justify;
+               font-size: 16px;
+          }
+}
+ 
+@media (max-width:1020px) {
+
+nav a{
+     font-size: 0.8em;
+
+}
+.logo {
+     font-size:20px;
+     letter-spacing: 1px;
+     text-transform:none;
+     padding: 2px;
+
+}
+.tabs {
+     
+     width: 45%;
+}
+.dropdown li a {
+
+
+     display: block;
+
+
+     background-color: #f4f4f4;
+     color: #000000;
+     padding: 4px;
+     line-height: 1.3em;
+     font-size: 12px;
+     font-weight: 600;
+
+
+
+
+}
+#small-trinagle{
+     height:6px;
+     padding-bottom: 1px;
+
+
+     padding-left: 4px;
+
+
+}
+
+
+
+ }
+ 
+ 
+
+ 
+ @media (max-width:900px) {
+     
+      
+      #pastel-green{
+          /* padding: 20vh; */
+      }
+      .content .text p {
+          text-align: justify;
+          font-size: 14.5px;
+     }
+
+     .topic {
+          font-size: 22px;
+     }
+     
+     .content .slider{
+       position: absolute;
+       left: 0;
+       top: 0;
+       height: 50px;
+       width: 100%;
+       border-radius: 5px;
+       background: #035D68;
+       transition: all 0.4s ease;
+     }
+ }
+ 
+ @media (max-width:800px) {
+     
+      
+     
+      .content .list label {
+           height: 40px;
+           font-size: 14px;
+           font-weight: 500;
+           line-height: 60px;
+           cursor: pointer;
+           padding-left: 0px;
+           transition: all 0.5s ease;
+           color: #333;
+           z-index: 12;
+           text-align: center;
+     }
+
+     #home:checked~.list .slider {
+           top: 0;
+     }
+
+     #blog:checked~.list .slider {
+           top: 40px;
+     }
+
+     #help:checked~.list .slider {
+           top: 80px;
+     }
+
+     #code:checked~.list .slider {
+           top: 120px;
+     }
+
+     #about:checked~.list .slider {
+           top: 160px;
+     }
+
+     .content .text-content {
+           width: 80%;
+           height: 100%;
+     }
+
+     .content .list {
+           display: flex;
+           flex-direction: column;
+           width: 35%;
+           margin-right: 50px;
+           margin-bottom: 20px;
+           position: relative;
+     }
+     p {
+
+         font-size: 10px;
+    }
+ }
+ 
+ 
+ 
+ 
+ @media (max-width:900px) {
+      .content .text p {
+         text-align: justify;
+         font-size: 12px;
+    } 
+      nav a{
+          font-size: 0.8em;
+          margin: -10;
+          padding: 0;
+     }
+     .logo {
+          display: none;
+     
+     }
+     .logo-hidden{
+          display: block;
+          margin-top: 10px;
+          margin-bottom: -25px;
+     }
+     
+     .tabs {
+          
+     width:80%;           
+     }
+     .topic {
+          font-size: 18px;
+     }
+     
+     .title{
+          font-size: 16px;
+     }
+}
+
+@media (max-width:800px) {
+     
+
+     .title{
+          font-size: 15px;
+     }
+     
+}
+
+@media (max-width:700px) {
+     
+     /* .container{
+          margin-top:-60%; 
+     } */
+}
+@media (max-width:1024px) {
+     
+     /* .container{
+          margin-top:-30%;
+     } */
+     #pastel-green{
+          /* padding: 15vh */
+     }
+     #pictureOfDavinder-mobile{
+          height: 456px;
+          width: 304px;
+     }
+}
+
+@media (max-width:520px) {
+     
+     
+     header a, header p {
+          font-size:10px;
+        
+     }
+     header img{
+          float: right;
+          height: 14px;
+          padding-bottom: 2px;
+          padding-right: 5px;
+       }
+       .container2 {
+          width: 95%;
+          height: 60%;
+          padding: 30px 40px 30px 30px;
+          background: #f4f4f4;
+          border: solid;
+          border-radius: 4px;
+          border-width: thin;
+          border-color: black;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          opacity: 90%;
+          font-family: 'Josefin Sans', sans-serif;
+          font-weight: 500;
+          color: #000000;
+    }
+    .content .slider{
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 60px;
+      width: 100%;
+      border-radius: 5px;
+      background: #035D68;
+      transition: all 0.4s ease;
+    }
+
+    .content .text p {
+    text-align: justify;
+    font-size: 14px;
+    margin: -100;
+}
+    .topic {
+          font-size: 18px;
+          margin-bottom: 20px;
+    }
+    
+    .content .slider{
+       position: absolute;
+       left: 0;
+       top: 0;
+       height: 65px;
+       width: 100%;
+       border-radius: 2px;
+       background: #035D68;
+       margin-top:  20px;
+       transition: all 0.4s ease;
+    }
+    .content .list label {
+          height: 80px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 5px;
+          padding-top:  20px;
+          padding:20px 5px;
+          
+    }
+    #home:checked ~ .list .slider{
+      top: -12px;
+    }
+    #blog:checked ~ .list .slider{
+      top: 60px;
+    }
+    #help:checked ~ .list .slider{
+      top: 150px;
+    }
+  
+   
+    .content .text-content{
+       width: 100%;
+       height: 100%;
+    }
+    #top-title{
+        padding-top: 50px;
+    }
+    #pastel-green{
+         /* padding: 20vh;
+    } */
+}
+
+
+
+
+
+
+
+@media (max-width:425px) {
+
+     .container{
+          /* margin-top:-73%;  */
+     }
+     header a, header p {
+          font-size:9px;
+        
+     }
+     h6,a{
+          
+               font-size: 12px;
+               line-height: 1.4em;
+               opacity: 100%;
+          font-weight: bolder;
+          
+     }
+     p{
+          
+               font-size: 4px;
+               line-height: 1.4em;
+               
+          
+     }
+     
+     
+     
+     header img{
+          float: right;
+          height: 8px;
+          padding-bottom: 2px;
+          padding-right: 5px;
+       }
+       .content .text p {
+      text-align: left;
+      font-size: 12px;
+      margin: -100;}
+      
+      
+      #pictureOfDavinder-mobile{
+      height: 292px;
+      width: 195px;
+      
+      }
+      
+     .logo-hidden{
+          font-size: 28px;
+     }
+     nav li {
+          font-size: 0.75em
+     }
+     .tabs{
+          width:85%;
+     }
+    
+.title{
+     font-size: 14px
+}
+    
+    #pastel-green{
+         /* padding: 20vh; */
+    }
+    
+    .dropdown li a {
+    
+    
+         display: block;
+    
+    
+         background-color: #f4f4f4;
+         color: #000000;
+         padding: 2px;
+         line-height: 1.5em;
+         font-size: 12px;
+         font-weight: 525;
+    
+    
+    
+    
+    }
+    .dropdown{
+         box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px;
+         margin-top: 0px;
+         padding: 10px;
+    
+    
+         position: absolute;
+         border-radius: 3px;
+         background-color: #f4f4f4;
+         display: none;
+    }
+    .footer{
+         font-size: 10px;
+    }
+}
+
+
+@media (max-width:320px) {
+     header a, header p {
+          font-size:8px;
+        
+     }
+     header img{
+          float: right;
+          height: 8px;
+          padding-bottom: 2px;
+          padding-right: 5px;
+       }
+       #pictureOfDavinder{
+          height:292px;
+          width: 195px;
+     }
+     .logo-hidden{
+          padding-bottom: 10px;
+     }
+     
+     .container2{
+       width: 100%;
+       height: 30%;
+       padding: 0px 10px 10px 10px;
+       background: #f4f4f4;
+     
+       border: solid;
+       border-radius: 4px;
+       border-width: thin;
+       border-color: black;
+       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+       opacity: 90%;
+       font-family: 'Josefin Sans', sans-serif;
+       font-weight: 540;
+       color: #000000;
+       }
+}
+
+
+
+/*media querries for research pages*/
+@media (max-width:1650px) {
+.images{
+width:100%;
+margin-left: 0%;
+}    
+#lab1{
+position: relative;
+height: 185px;
+width: 415px;
+padding:10px;
+border-radius: 25px;
+
+}
+
+#lab2{
+width: 360px;
+position: relative;
+height: 185px;
+padding:10px;
+border-radius: 25px;
+}
+#lab3{
+width: 265px;
+height: 185px;
+position: relative;
+padding:10px;
+border-radius: 15px;
+}
+
+
+
+
+
+@media (max-width:1370px) {
+
+#lab1{
+position: relative;
+height: 170px;
+width: 415px;
+padding:10px;
+border-radius: 25px;
+
+}
+
+#lab2{
+width: 360px;
+position: relative;
+height: 170px;
+padding:10px;
+border-radius: 25px;
+}
+#lab3{
+width: 265px;
+height: 170px;
+position: relative;
+padding:10px;
+border-radius: 15px;
+}
+
+
+}
+
+@media (max-width:1240px) {
+     .images{
+          flex-wrap: wrap;
+          flex-direction: column-reverse;
+          margin-left: 0'
+     }
+     #lab1{
+     position: relative;
+     height: 165px;
+     width: 340px;
+     
+     }
+     
+     #lab2{
+     width: 340px;
+     
+     height: 195px;
+     
+     }
+     #lab3{
+     width: 340px;
+     height: 255px;
+     
+     }
+}
+@media (max-width:425px) {
+#lab1{
+
+height: 104px;
+width: 208px;
+
+}
+
+#lab2{
+width: 213px;
+
+height: 122px;}
+
+#lab3{
+width: 213px;
+height: 155px;
+
+}
+///////
+
+@media (max-width:500px) {
+.text-box h1{
+     text-align:center;
+     font-size: 20px;
+     padding-bottom: 15px;
+}
+.text-box h2{
+     text-align:left;
+     font-size: 16px;
+     padding: 12px 0px;
+}
+.text-box p{
+font-weight: 500;    
+font-size: 12px;
+}
+
+
+
+.text-box li{
+padding:6px;
+font-size: 12px;
+font-weight: 500;
+
+}
+
+
+.text-box ul li{
+padding:6px;
+font-size: 12px;
+font-weight: 500;
+margin-left:3%;
+margin-top: 5px;
+}
+
+.text-box .bold{
+font-weight: bolder;
+}
+
+
+#sub-element{
+padding: 2px;
+margin-top: 0px;
+}
+
+
+.text-box ol{
+     list-style:decimal;
+     margin-left: 12px;
+}
+
+.text-box ol li{
+     padding: 15px 0px; 
+}
+
+.text-box ol h5{
+margin-left:  -25px;
+}
+.text-box ol h2{
+margin-left:  -25px;
+}
+
+.davinder-bold{
+     font-weight: bolder;
+     display: inline;
+     font-size: 12px;
+}
+.text-box b{
+     font-weight: bolder;
+     display: inline;
+     font-size: 12px;
+}
+
+.text-box a{
+     font-size: 12px;
+     text-decoration: underline;
+     font-weight: normal;
+}
+
+#centre-content{
+text-align: center;
+}
+
+#year-h5{
+     padding-bottom: 8px;
+     
+}
+
+}
+
+
+/*vertical teb issues*/
+@media (max-width:550px) {
+     
+#mobile-tabs{
+display: block;
+text-align: center;
+width:90%;
+
+}
+
+
+.container2{
+display: none;
+}
+}
+
+
+
+#mobile-h3{
+     font-size: 18px;
+     padding: 2px;
+     /* background: #035D68; */
+     
+     border-bottom: solid 3px #035D68;
+     width: 50%;
+     text-align: center;
+     margin: 5% auto;
+     margin-top: 15%;
+     border-radius: 3px;
+     font-weight: 550;
+     
+}
+
+
+#mobile-p, #mobile-tabs ul li{
+     font-size: 12px;
+     text-align: justify;
+}
+
+
+#mobile-h5{
+     font-size: 16px;
+     margin: 10px 0px;
+     font-weight: 600;
+     text-align: center;
+     
+}
+
+#mobile-p-bold{
+font-weight: bolder;
+font-size: 12px;
+text-align: justify;
+}
+
+
+#mobile-a{
+     text-align: center;
+}
+
+
+
+/* other pages */
+@media (max-width:425px) {
+     
+
+.text-box h1{
+     text-align:center;
+     font-size: 20px;
+     padding-bottom: 15px;
+}
+.text-box h2{
+     text-align:left;
+     font-size: 18px;
+     padding: 12px 0px;
+}
+.text-box p{
+font-weight: 500;    
+font-size: 14px;
+}
+
+
+
+.text-box li{
+padding:6px;
+font-size: 14px;
+font-weight: 500;
+
+}
+
+
+.text-box ul li{
+padding:6px;
+font-size: 14px;
+font-weight: 500;
+margin-left:3%;
+margin-top: 5px;
+}
+.text-box ol{
+     list-style:decimal;
+     margin-left: 16px;
+}
+
+.text-box ol li{
+     padding: 15px 0px; 
+}
+
+.text-box ol h5{
+margin-left:  -25px;
+}
+.text-box ol h2{
+margin-left:  -25px;
+}
+
+.davinder-bold{
+     font-weight: bolder;
+     display: inline;
+     font-size: 14px;
+}
+.text-box b{
+     font-weight: bolder;
+     display: inline;
+     font-size: 14px;
+}
+
+.text-box a, {
+     font-size: 14px;
+     text-decoration: underline;
+     font-weight: normal;
+}
+
+
+
