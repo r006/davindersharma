@@ -7,7 +7,10 @@ The website is designed to present a comprehensive overview of the lecturer's ac
 [https://davindersharma.netlify.app/](https://davindersharma.netlify.app/)
 
 ## Video Walkthrough
-[![Demo Preview](media/demo-thumbnail.png)](media/demo.mp4)
+
+https://github.com/user-attachments/assets/b166dcda-1bf8-4112-b8e0-dfce354763f7
+
+
 
 ## Features
 
