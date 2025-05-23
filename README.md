@@ -4,8 +4,7 @@ This repository contains the source code for a professional portfolio website de
 The website is designed to present a comprehensive overview of the lecturer's academic career, including research interests, publications, teaching experience, and contact information.
 
 ## Live Demo
-
-[View the live website]([https://your-live-link.com](https://davindersharma.netlify.app/))
+[View the live website](https://davindersharma.netlify.app/)
 
 ## Video Walkthrough
 [![Demo Preview](media/demo-thumbnail.png)](media/demo.mp4)
