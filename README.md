@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/b166dcda-1bf8-4112-b8e0-dfce354763f7
 - Fully responsive design compatible with all screen sizes (desktop, tablet, mobile)
 - Clean, modern, and professional user interface
 - Organized layout for intuitive navigation
-- Integrated contact form and social/professional links
+- Integrated contact form using formsubmit API and social/professional links
 - Sectioned pages including About, Research, Publications, Teaching, Services, and Contact
 
 ### Website Sections
@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/b166dcda-1bf8-4112-b8e0-dfce354763f7
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript  
+- **Frontend**: HTML, CSS  
 - **Hosting**: Netlify  
 
 
