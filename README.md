@@ -34,4 +34,11 @@ https://github.com/user-attachments/assets/b166dcda-1bf8-4112-b8e0-dfce354763f7
 - **Hosting**: Netlify  
 
 
+## Why I'm Proud of This Project
 
+This project was a meaningful learning experience, and I'm proud of how it turned out. I began by designing the user interface in Adobe XD, aiming for a layout that is clean, professional, and easy to navigate. This helped me carefully plan the structure and visual hierarchy before moving into development.
+
+After finalizing the design, I built the site using HTML and CSS. While the project doesn't include any significant backend functionality, this was a deliberate choice based on the simplicity of the client’s needs. The goal was to create a static, informative website that presents academic content clearly and professionally.
+I also took care to ensure that the website is well-optimized for search engines by using semantic HTML, meaningful page titles, meta tags, and a clear content structure. These elements help improve the site’s visibility and accessibility on search platforms.
+
+Even though the technical requirements were straightforward, the project gave me the opportunity to focus on responsive design, accessibility, and delivering a polished user experience. It’s rewarding to see the final product and know that it effectively meets the client’s goals.
